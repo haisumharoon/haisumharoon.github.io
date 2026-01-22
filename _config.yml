@@ -161,9 +161,9 @@ collections:
   news:
     defaults:
       layout: post
-    output: true
-  projects:
-    output: true
+    output: false
+  projects: 
+    output: false
   teachings:
     output: false
 
