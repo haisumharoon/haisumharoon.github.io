@@ -37,7 +37,6 @@ Previously, I worked as a Research Assistant at **Tufts University** and the **U
 
 *   **2025:** 🧠 Completed research on Neurodiversity and LLM Bias at **Tufts University**.
 *   **2025:** 🚀 Completed Research Fellowship in Software Engineering at the **UIUC+ Research Program**.
-*   **2021:** 🏆 Received **Gold Honor** in the International Youth Math Challenge (Ranked Top 1% globally).
 
 ***
 
@@ -47,17 +46,20 @@ Previously, I worked as a Research Assistant at **Tufts University** and the **U
 **Bias in LLMs & Neurodiversity**
 *Tufts University | Advisor: Rukhshan Haroon*
 <br>
-Investigated bias in Large Language Models when interpreting autistic vs. neurotypical communication.
-*   Curated a dataset of **two-turn dialogues** and conducted **1,200+ controlled GPT-4o evaluations**.
-*   Performed statistical analysis (Stuart–Maxwell, Holm–Bonferroni) to quantify distribution shifts in model judgments.
+Investigated bias in LLMs when interpreting autistic vs. neurotypical communication.
+*   Curated a dataset of **two-turn dialogues** in collaboration with an **autistic advisory board**.
+*   Conducted **1,200+ controlled GPT-4o evaluations** to measure disclosure effects.
+*   Performed statistical analysis (**Stuart–Maxwell**, **Holm–Bonferroni**) to quantify distribution shifts.
+*   Conducted **thematic analysis** (Braun & Clarke) on model explanations using **NVivo** to identify reasoning patterns.
 *   *Keywords: LLMs, Fairness, Thematic Analysis, Statistics*
 
 **Automated Test Repair & Software Reliability**
 *UIUC+ Research Program | Advisor: Prof. Darko Marinov*
 <br>
-Conducted an in-depth literature review and implemented automated testing pipelines.
-*   Analyzed **repair reliability**, **flaky tests**, and **obsolete test detection**.
-*   Utilized symbolic and concolic execution techniques to improve test coverage.
+Conducted an in-depth literature review on automated test repair (papers from **FSE, ISSTA, USENIX**).
+*   Implemented automated testing pipelines to analyze **repair reliability**, **mutation behavior**, **obsolete test detection**, and **flaky tests**.
+*   Studied **symbolic and concolic execution** techniques to improve coverage.
+*   Wrote **reproducibility scripts in Python** to validate results across multiple testing frameworks.
 *   *Keywords: Software Testing, Automated Repair, Python, CI/CD*
 
 **HCI & Mental Health AI**
