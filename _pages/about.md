@@ -22,7 +22,7 @@ Previously, I worked as a Research Assistant at **Tufts University** and the **U
 
 <div style="margin-top: 20px; margin-bottom: 30px;">
   <a href="/assets/pdf/Haisum_CV.pdf" target="_blank" style="text-decoration: none;">
-    <button type="button" class="btn btn-outline-primary btn-sm">Resume</button>
+    <button type="button" class="btn btn-outline-primary btn-sm">Download CV</button>
   </a>
   &nbsp; &nbsp;
   <a href="mailto:haisumharoon@gmail.com" style="text-decoration: none;">
