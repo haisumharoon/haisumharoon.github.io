@@ -8,23 +8,18 @@ middle_name:
 last_name: Haroon
 # -----------------------------------------------------------------------------
 # Footer & Metadata
-# -----------------------------------------------------------------------------
+# ----------------------------------------------------------------------------
 
-contact_note: >
-  # Left blank to remove the text above the icons.
+contact_note: 
 
 description: >
   Personal academic website of Haisum Haroon.
 
-footer_text: >
-  # Left blank to remove the "Powered by Jekyll" text.
-  # The copyright (© 2026 Haisum Haroon) generates automatically.
+footer_text: 
 
 keywords: computer science, software engineering, AI fairness, Haisum Haroon
-
 lang: en
-
-icon:  # Changed to a graduation cap (or pick any emoji you like)
+icon: 🎓
 
 url: https://haisumharoon.github.io # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/. Leave blank for root
