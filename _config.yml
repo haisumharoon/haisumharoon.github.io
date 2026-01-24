@@ -6,17 +6,25 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Haisum
 middle_name: 
 last_name: Haroon
+# -----------------------------------------------------------------------------
+# Footer & Metadata
+# -----------------------------------------------------------------------------
+
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  # Left blank to remove the text above the icons.
+
+description: >
+  Personal academic website of Haisum Haroon.
+
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+  # Left blank to remove the "Powered by Jekyll" text.
+  # The copyright (© 2026 Haisum Haroon) generates automatically.
+
+keywords: computer science, software engineering, AI fairness, Haisum Haroon
+
+lang: en
+
+icon:  # Changed to a graduation cap (or pick any emoji you like)
 
 url: https://haisumharoon.github.io # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/. Leave blank for root
