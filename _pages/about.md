@@ -6,7 +6,7 @@ subtitle: <b>CS Undergraduate</b> at ITU. <br> Researcher in <b>Software Enginee
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profp.png
   image_circular: false
 
 selected_papers: false
