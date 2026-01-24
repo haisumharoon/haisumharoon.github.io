@@ -1,18 +1,4 @@
-# -----------------------------------------------------------------------------
-# Clean Socials List
-# -----------------------------------------------------------------------------
-
 email: haisumharoon@gmail.com
-
-# Make sure your PDF is actually named "resume.pdf" (lowercase) inside assets/pdf/
-cv: assets/pdf/resume.pdf
-
-# Add your usernames here (just the username, not the full link)
-linkedin: your_linkedin_username
-github: haisumharoon
-
-# Disable the unwanted icons explicitly
+cv_pdf: /assets/pdf/resume.pdf
+linkedin: haisum-haroon
 rss_icon: false
-scholar_userid:
-inspirehep_id:
-custom_social:
