@@ -65,10 +65,8 @@ Conducted an in-depth literature review on automated test repair (papers from **
 **HCI & Mental Health AI**
 *AIT / Punjab University | Faisal Bukhari*
 <br>
-Conducted a mixed-methods study (n=50) on mental health chatbots.
-*   Analyzed interaction data using **Wilcoxon signed-rank** and **Kruskal–Wallis H** tests.
-*   Evaluated emotional support and perceived helpfulness of chatbots.
-
+* Led a mixed-methods study (N=50) in the Global South, utilizing non-parametric & parametric analysis to validate AI chatbots as stigma-free mental health intermediaries.
+* Findings established AI as an effective "digital triage" tool for mild distress, demonstrating its capacity to bypass cultural barriers and improve accessibility
 ***
 
 <!-- PROJECTS SECTION -->
