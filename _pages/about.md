@@ -46,7 +46,7 @@ Previously, I worked as a Research Assistant at **Tufts University** and the **U
 **Bias in LLMs & Neurodiversity**
 *Tufts University | Rukhshan Haroon*
 <br>
-Investigated bias in LLMs when interpreting autistic vs. neurotypical communication.
+*   Investigated bias in LLMs when interpreting autistic vs. neurotypical communication.
 *   Curated a dataset of **two-turn dialogues** in collaboration with an **autistic advisory board**.
 *   Conducted **1,200+ controlled GPT-4o evaluations** to measure disclosure effects.
 *   Performed statistical analysis (**Stuart–Maxwell**, **Holm–Bonferroni**) to quantify distribution shifts.
@@ -56,7 +56,7 @@ Investigated bias in LLMs when interpreting autistic vs. neurotypical communicat
 **Automated Test Repair & Software Reliability**
 *UIUC+ Research Program | Darko Marinov*
 <br>
-Conducted an in-depth literature review on automated test repair (papers from **FSE, ISSTA, USENIX**).
+*   Conducted an in-depth literature review on automated test repair (papers from **FSE, ISSTA, USENIX**).
 *   Implemented automated testing pipelines to analyze **repair reliability**, **mutation behavior**, **obsolete test detection**, and **flaky tests**.
 *   Studied **symbolic and concolic execution** techniques to improve coverage.
 *   Wrote **reproducibility scripts in Python** to validate results across multiple testing frameworks.
