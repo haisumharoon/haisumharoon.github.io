@@ -67,7 +67,6 @@ Previously, I worked as a Research Assistant at **Tufts University** and the **U
 <br>
 * Led a mixed-methods study (N=50) in the Global South, utilizing non-parametric & parametric analysis to validate AI chatbots as stigma-free mental health intermediaries.
 * Findings established AI as an effective "digital triage" tool for mild distress, demonstrating its capacity to bypass cultural barriers and improve accessibility
-***
 
 <!-- PROJECTS SECTION -->
 ### 💻 Selected Projects
