@@ -16,7 +16,7 @@ nav: false
 ---
 
 <!-- BIO SECTION -->
-I am a Computer Science undergraduate at **Information Technology University (ITU)**. My research interests lie at the intersection of **Software Engineering** and **Artificial Intelligence**, with a specific focus on **Automated Test Repair** and mitigating **LLM Bias**.
+I am a Computer Science undergraduate at **Information Technology University (ITU)**. My research interests include **Software Engineering** and **Large Language Models**, with a specific focus on **Automated Test Repair** and mitigating **LLM Bias**.
 
 Previously, I worked as a Research Assistant at **Tufts University** and the **UIUC+ Research Program**, where I investigated fairness in large language models and software reliability. I am passionate about building secure, reliable, and human-centered intelligent systems.
 
