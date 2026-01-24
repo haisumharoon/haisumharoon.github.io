@@ -44,7 +44,7 @@ Previously, I worked as a Research Assistant at **Tufts University** and the **U
 ### 🔬 Research Experience
 
 **Bias in LLMs & Neurodiversity**
-*Tufts University | Advisor: Rukhshan Haroon*
+*Tufts University | Rukhshan Haroon*
 <br>
 Investigated bias in LLMs when interpreting autistic vs. neurotypical communication.
 *   Curated a dataset of **two-turn dialogues** in collaboration with an **autistic advisory board**.
@@ -54,7 +54,7 @@ Investigated bias in LLMs when interpreting autistic vs. neurotypical communicat
 *   *Keywords: LLMs, Fairness, Thematic Analysis, Statistics*
 
 **Automated Test Repair & Software Reliability**
-*UIUC+ Research Program | Advisor: Prof. Darko Marinov*
+*UIUC+ Research Program | Darko Marinov*
 <br>
 Conducted an in-depth literature review on automated test repair (papers from **FSE, ISSTA, USENIX**).
 *   Implemented automated testing pipelines to analyze **repair reliability**, **mutation behavior**, **obsolete test detection**, and **flaky tests**.
@@ -63,7 +63,7 @@ Conducted an in-depth literature review on automated test repair (papers from **
 *   *Keywords: Software Testing, Automated Repair, Python, CI/CD*
 
 **HCI & Mental Health AI**
-*AIT / Punjab University | Advisor: Dr. Faisal Bukhari*
+*AIT / Punjab University | Faisal Bukhari*
 <br>
 Conducted a mixed-methods study (n=50) on mental health chatbots.
 *   Analyzed interaction data using **Wilcoxon signed-rank** and **Kruskal–Wallis H** tests.
