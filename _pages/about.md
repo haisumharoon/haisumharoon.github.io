@@ -44,7 +44,7 @@ Previously, I worked as a Research Assistant at **Tufts University** and the **U
 ### 🔬 Research Experience
 
 **Bias in LLMs & Neurodiversity**
-*Tufts University | Rukhshan Haroon*
+*Tufts University*
 <br>
 *   Investigated bias in LLMs when interpreting autistic vs. neurotypical communication.
 *   Curated a dataset of **two-turn dialogues** in collaboration with an **autistic advisory board**.
