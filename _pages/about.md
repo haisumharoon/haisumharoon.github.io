@@ -49,7 +49,7 @@ Previously, I worked as a Research Assistant at **Tufts University** and the **U
 * Conducted the first systematic study of **LLM bias** against **autistic communication styles** using a **matched-guise paradigm**.
 * Co-curated **300 paired autistic–allistic dialogues** in collaboration with an **autistic advisory board** across three cross-neurotype scenarios.
 * Benchmarked **9 state-of-the-art LLMs** across 4 decision-making tasks and 5 prompt conditions, generating **54,000+ data points**.
-* Conducted **ordinal logistic regression** with **likelihood-ratio tests** and **FDR correction** to quantify rating disparities.
+* Utilized **ordinal logistic regression** with **likelihood-ratio tests** and **FDR correction** to quantify rating disparities.
 * Analyzed reasoning traces from DeepSeek-R1 to identify **qualitative patterns** in model judgments under neurodiversity-informed prompting.
 *   *Keywords: LLMs, Fairness, Neurodiversity, Autism, Matched-Guise, Ordinal Logistic Regression*
 
