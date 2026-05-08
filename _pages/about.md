@@ -21,7 +21,7 @@ I am a Computer Science undergraduate at **Information Technology University (IT
 Previously, I worked as a Research Assistant at **Tufts University** and the **UIUC Research Program**, where I investigated fairness in large language models and software reliability. I am passionate about building reliable, secure, and human-centered intelligent systems.
 
 <div style="margin-top: 20px; margin-bottom: 30px;">
-  <a href="/assets/pdf/Haisum_CV.pdf" target="_blank" style="text-decoration: none;">
+  <a href="/assets/pdf/Haisum_cv.pdf" target="_blank" style="text-decoration: none;">
     <button type="button" class="btn btn-outline-primary btn-sm">Download CV</button>
   </a>
   &nbsp; &nbsp;
