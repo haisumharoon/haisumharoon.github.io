@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: <b>CS Undergraduate</b> at ITU. <br> Researcher in <b>Software Engineering</b> and <b>AI Fairness</b>.
+subtitle: <b>CS Undergraduate</b> at ITU. <br> Researcher in <b>AI Fairness</b> and <b>Software Engineering</b>.
 
 profile:
   align: right
@@ -16,9 +16,9 @@ nav: false
 ---
 
 <!-- BIO SECTION -->
-I am a Computer Science undergraduate at **Information Technology University (ITU)**. My research interests include **Software Engineering** and **Large Language Models**, with a specific focus on **Automated Test Repair** and mitigating **LLM Bias**.
+I am a Computer Science undergraduate at **Information Technology University (ITU)**. My research interests include**Large Language Models** and **Software Engineering** and , with a specific focus on mitigating **LLM Bias** and **Automated Test Repair**.
 
-Previously, I worked as a Research Assistant at **Tufts University** and the **UIUC+ Research Program**, where I investigated fairness in large language models and software reliability. I am passionate about building secure, reliable, and human-centered intelligent systems.
+Previously, I worked as a Research Assistant at **Tufts University** and the **UIUC Research Program**, where I investigated fairness in large language models and software reliability. I am passionate about building reliable, secure, and human-centered intelligent systems.
 
 <div style="margin-top: 20px; margin-bottom: 30px;">
   <a href="/assets/pdf/Haisum_CV.pdf" target="_blank" style="text-decoration: none;">
@@ -35,7 +35,7 @@ Previously, I worked as a Research Assistant at **Tufts University** and the **U
 <!-- NEWS SECTION -->
 ### 📣 News
 
-*   **2025:** 🧠 Completed research on Neurodiversity and LLM Bias at **Tufts University**.
+*   **2026:** 🧠 Completed research on Neurodiversity and LLM Bias at **Tufts University**.
 *   **2025:** 🚀 Completed Research Fellowship in Software Engineering at the **UIUC+ Research Program**.
 
 ***
@@ -46,15 +46,16 @@ Previously, I worked as a Research Assistant at **Tufts University** and the **U
 **Bias in LLMs & Neurodiversity**
 *Tufts University*
 <br>
-*   Investigated bias in LLMs when interpreting autistic vs. neurotypical communication.
-*   Curated a dataset of **two-turn dialogues** in collaboration with an **autistic advisory board**.
-*   Conducted **1,200+ controlled GPT-4o evaluations** to measure disclosure effects.
-*   Performed statistical analysis (**Stuart–Maxwell**, **Holm–Bonferroni**) to quantify distribution shifts.
-*   Conducted **thematic analysis** (Braun & Clarke) on model explanations using **NVivo** to identify reasoning patterns.
-*   *Keywords: LLMs, Fairness, Thematic Analysis, Statistics*
+* Conducted the first systematic study of LLM bias against autistic communication styles using a matched-guise paradigm.
+* Co-curated 300 paired autistic–allistic dialogues in collaboration with an autistic advisory board across three cross-neurotype scenarios.
+* Benchmarked 9 state-of-the-art LLMs across 4 decision-making tasks and 5 prompt conditions, generating 54,000+ data points.
+* Conducted ordinal logistic regression with likelihood-ratio tests and FDR correction to quantify rating disparities.
+* Analyzed reasoning traces from DeepSeek-R1 to identify qualitative patterns in model judgments under neurodiversity-informed prompting.
+Keywords: LLMs, Fairness, Neurodiversity, Autism, Matched-Guise, Ordinal Logistic Regression
+*   *Keywords: LLMs, Fairness, Neurodiversity, Autism, Matched-Guise, Ordinal Logistic Regression*
 
 **Automated Test Repair & Software Reliability**
-*UIUC+ Research Program | Darko Marinov*
+*UIUC+ Research Program*
 <br>
 *   Conducted an in-depth literature review on automated test repair (papers from **FSE, ISSTA, USENIX**).
 *   Implemented automated testing pipelines to analyze **repair reliability**, **mutation behavior**, **obsolete test detection**, and **flaky tests**.
