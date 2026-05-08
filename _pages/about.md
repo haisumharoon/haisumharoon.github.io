@@ -16,7 +16,7 @@ nav: false
 ---
 
 <!-- BIO SECTION -->
-I am a Computer Science undergraduate at **Information Technology University (ITU)**. My research interests include**Large Language Models** and **Software Engineering** and , with a specific focus on mitigating **LLM Bias** and **Automated Test Repair**.
+I am a Computer Science undergraduate at **Information Technology University (ITU)**. My research interests include **Large Language Models** and **Software Engineering**, with a specific focus on mitigating **LLM Bias** and **Automated Test Repair**.
 
 Previously, I worked as a Research Assistant at **Tufts University** and the **UIUC Research Program**, where I investigated fairness in large language models and software reliability. I am passionate about building reliable, secure, and human-centered intelligent systems.
 
@@ -43,14 +43,14 @@ Previously, I worked as a Research Assistant at **Tufts University** and the **U
 <!-- RESEARCH EXPERIENCE SECTION -->
 ### 🔬 Research Experience
 
-**Bias in LLMs & Neurodiversity**
-*Tufts University*
+**Bias in LLMs & Neurodiversity** (Under Submission, ASSETS 2026)
+*Tufts University* 
 <br>
-* Conducted the first systematic study of LLM bias against autistic communication styles using a matched-guise paradigm.
-* Co-curated 300 paired autistic–allistic dialogues in collaboration with an autistic advisory board across three cross-neurotype scenarios.
-* Benchmarked 9 state-of-the-art LLMs across 4 decision-making tasks and 5 prompt conditions, generating 54,000+ data points.
-* Conducted ordinal logistic regression with likelihood-ratio tests and FDR correction to quantify rating disparities.
-* Analyzed reasoning traces from DeepSeek-R1 to identify qualitative patterns in model judgments under neurodiversity-informed prompting.
+* Conducted the first systematic study of **LLM bias** against **autistic communication styles** using a **matched-guise paradigm**.
+* Co-curated **300 paired autistic–allistic dialogues** in collaboration with an **autistic advisory board** across three cross-neurotype scenarios.
+* Benchmarked **9 state-of-the-art LLMs** across 4 decision-making tasks and 5 prompt conditions, generating **54,000+ data points**.
+* Conducted **ordinal logistic regression** with **likelihood-ratio tests** and **FDR correction** to quantify rating disparities.
+* Analyzed reasoning traces from DeepSeek-R1 to identify **qualitative patterns** in model judgments under neurodiversity-informed prompting.
 Keywords: LLMs, Fairness, Neurodiversity, Autism, Matched-Guise, Ordinal Logistic Regression
 *   *Keywords: LLMs, Fairness, Neurodiversity, Autism, Matched-Guise, Ordinal Logistic Regression*
 
