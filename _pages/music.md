@@ -25,8 +25,7 @@ nav_order: 5
         <h2>Cornfield Chase</h2>
         <p class="pp-meta">Hans Zimmer, from Interstellar.</p>
         <p>
-          My favorite piece to play. The slow build from a simple pattern into something huge is what keeps me coming back.
-          Interstellar is also the film that made me want to understand how things work.
+         My favorite piece to play. Interstellar made me curious about how the world works, and this piece still gives me that feeling. When I  play it, I feel small in the best way, like looking up at the night sky and wanting to know more.
         </p>
       </div>
 
