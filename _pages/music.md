@@ -24,21 +24,21 @@ nav_order: 5
   <section class="pp-feature">
 
     <div class="pp-text">
-      <h2>[Piece title]</h2>
-      <p class="pp-meta">[Composer or "Original"]. Recorded [Month Year].</p>
+      <h2>Cornfield Chase</h2>
+      <p class="pp-meta">Hans Zimmer, from Interstellar.</p>
       <p>
-        [Two or three plain sentences. Why you chose this piece, what makes it hard,
-        or what it means to you.]
+        My favorite piece to play. The slow build from a simple pattern into something huge is what keeps me coming back.
+        Interstellar is also the film that made me want to understand how things work.
       </p>
     </div>
 
     <div class="pp-photo">
-      <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/DSsraZFDGTI/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:0; max-width:540px; min-width:0; padding:0; width:100%;"><a href="https://www.instagram.com/p/DSsraZFDGTI/" target="_blank" rel="noopener">View on Instagram</a></blockquote>
+      <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DSsraZFDGTI/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:0; max-width:540px; min-width:0; padding:0; width:100%;"><a href="https://www.instagram.com/p/DSsraZFDGTI/" target="_blank" rel="noopener">View on Instagram</a></blockquote>
     </div>
 
     <div class="pp-video">
       <video controls playsinline preload="metadata">
-        <source src="/assets/video/piano-main.mp4#t=0.1" type="video/mp4">
+        <source src="/assets/video/Interstellar.mp4#t=0.1" type="video/mp4">
         Your browser cannot play this video.
       </video>
     </div>
@@ -51,15 +51,15 @@ nav_order: 5
   <div class="pp-grid">
 
     <div class="pp-reelbox">
-      <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/DW60T3HjBZa/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:0; max-width:540px; min-width:0; padding:0; width:100%;"><a href="https://www.instagram.com/reel/DW60T3HjBZa/" target="_blank" rel="noopener">View on Instagram</a></blockquote>
+      <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DW60T3HjBZa/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:0; max-width:540px; min-width:0; padding:0; width:100%;"><a href="https://www.instagram.com/reel/DW60T3HjBZa/" target="_blank" rel="noopener">View on Instagram</a></blockquote>
     </div>
 
     <div class="pp-reelbox">
-      <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/DKAXO6KsPJC/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:0; max-width:540px; min-width:0; padding:0; width:100%;"><a href="https://www.instagram.com/reel/DKAXO6KsPJC/" target="_blank" rel="noopener">View on Instagram</a></blockquote>
+      <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DKAXO6KsPJC/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:0; max-width:540px; min-width:0; padding:0; width:100%;"><a href="https://www.instagram.com/reel/DKAXO6KsPJC/" target="_blank" rel="noopener">View on Instagram</a></blockquote>
     </div>
 
     <div class="pp-reelbox">
-      <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/DJym54xtU9s/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:0; max-width:540px; min-width:0; padding:0; width:100%;"><a href="https://www.instagram.com/reel/DJym54xtU9s/" target="_blank" rel="noopener">View on Instagram</a></blockquote>
+      <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DJym54xtU9s/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:0; max-width:540px; min-width:0; padding:0; width:100%;"><a href="https://www.instagram.com/reel/DJym54xtU9s/" target="_blank" rel="noopener">View on Instagram</a></blockquote>
     </div>
 
   </div>
@@ -131,15 +131,18 @@ nav_order: 5
   /* ---- row 1: three equal columns, same as the reels row below ---- */
   .pp-feature {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    grid-template-areas: "text photo video";
-    gap: var(--pp-gap);
-    align-items: stretch;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-areas:
+      "text  video"
+      "photo video";
+    column-gap: var(--pp-gap);
+    row-gap: 1rem;
+    align-items: start;
     margin-bottom: 3rem;
   }
-  .pp-text  { grid-area: text;  align-self: start; }
-  .pp-photo { grid-area: photo; }
-  .pp-video { grid-area: video; }
+  .pp-text  { grid-area: text; }
+  .pp-photo { grid-area: photo; max-width: 300px; width: 100%; }
+  .pp-video { grid-area: video; align-self: stretch; min-height: 420px; }
 
   .pp-text h2 {
     font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
@@ -156,7 +159,6 @@ nav_order: 5
     border-radius: 3px;
     overflow: hidden;
   }
-  .pp-video::before { content: ""; display: block; padding-top: 177.78%; }
   .pp-video video {
     position: absolute;
     inset: 0;
@@ -202,6 +204,7 @@ nav_order: 5
       max-width: 400px;
     }
     .pp-grid { grid-template-columns: minmax(0, 1fr); max-width: 400px; }
+    .pp-video { aspect-ratio: 9 / 16; min-height: 0; }
     .pp-keys { height: 96px; }
     .pp-lede { font-size: 1.3rem; }
   }
