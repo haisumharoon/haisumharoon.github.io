@@ -17,14 +17,13 @@ nav_order: 5
   <div class="pp-keys" id="ppKeys" role="group" aria-label="Small piano keyboard. Press a key to hear a note."></div>
   <p class="pp-hint">Try the keys. They are real notes.</p>
 
-  <!-- ========== FEATURED PIECE (self-hosted mp4) ==========
-       1. Upload your video to the repo at: assets/video/piano-main.mp4
-          (GitHub: Add file > Upload files, keep it under about 20 MB)
-       2. Optional: upload a still image to assets/img/piano-main.jpg and keep the poster line.
-          If you do not have one, delete the poster="..." part.
+  <!-- ========== FEATURED: text + photo on the left, your own mp4 on the right ==========
+       Upload your video to the repo as: assets/video/piano-main.mp4
+       (GitHub: Add file > Upload files. Keep it under about 20 MB.)
   -->
   <section class="pp-feature">
-    <div class="pp-feature-text">
+
+    <div class="pp-text">
       <h2>[Piece title]</h2>
       <p class="pp-meta">[Composer or "Original"]. Recorded [Month Year].</p>
       <p>
@@ -32,74 +31,41 @@ nav_order: 5
         or what it means to you. Specific is better than polished.]
       </p>
     </div>
-    <div class="pp-reel pp-native">
-      <video controls playsinline preload="metadata" poster="/assets/img/piano-main.jpg">
-        <source src="/assets/video/piano-main.mp4" type="video/mp4">
+
+    <div class="pp-photo">
+      <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DSsraZFDGTI/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:0; max-width:540px; min-width:326px; padding:0; width:100%;"><a href="https://www.instagram.com/p/DSsraZFDGTI/" target="_blank" rel="noopener">View on Instagram</a></blockquote>
+    </div>
+
+    <div class="pp-video">
+      <video controls playsinline preload="metadata">
+        <source src="/assets/video/piano-main.mp4#t=0.1" type="video/mp4">
         Your browser cannot play this video.
       </video>
     </div>
+
   </section>
 
-  <!-- ========== MORE RECORDINGS (Instagram) ==========
-       Paste the full Instagram link into data-ig. Post (/p/) and reel (/reel/) links both work. -->
+  <!-- ========== MORE RECORDINGS: Instagram reels, no captions ==========
+       To add one, copy a <blockquote> block and change the link in both places. -->
   <h2 class="pp-h2">More recordings</h2>
   <div class="pp-grid">
 
-    <figure>
-      <div class="pp-reel" data-ig="https://www.instagram.com/reel/DW60T3HjBZa/" data-title="[Piece 2]">
-        <button type="button" class="pp-play" aria-label="Load and play: [Piece 2]">
-          <span class="pp-tri" aria-hidden="true"></span>
-          <span class="pp-play-title">[Piece 2]</span>
-          <span class="pp-play-sub">Tap to load video</span>
-        </button>
-      </div>
-      <figcaption><strong>[Piece 2]</strong><br>[Composer]. One line about it.</figcaption>
-    </figure>
+    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DW60T3HjBZa/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:0; max-width:540px; min-width:326px; padding:0; width:100%;"><a href="https://www.instagram.com/reel/DW60T3HjBZa/" target="_blank" rel="noopener">View on Instagram</a></blockquote>
 
-    <figure>
-      <div class="pp-reel" data-ig="https://www.instagram.com/reel/DKAXO6KsPJC/" data-title="[Piece 3]">
-        <button type="button" class="pp-play" aria-label="Load and play: [Piece 3]">
-          <span class="pp-tri" aria-hidden="true"></span>
-          <span class="pp-play-title">[Piece 3]</span>
-          <span class="pp-play-sub">Tap to load video</span>
-        </button>
-      </div>
-      <figcaption><strong>[Piece 3]</strong><br>[Composer]. One line about it.</figcaption>
-    </figure>
+    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DKAXO6KsPJC/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:0; max-width:540px; min-width:326px; padding:0; width:100%;"><a href="https://www.instagram.com/reel/DKAXO6KsPJC/" target="_blank" rel="noopener">View on Instagram</a></blockquote>
 
-    <figure>
-      <div class="pp-reel" data-ig="https://www.instagram.com/reel/DJym54xtU9s/" data-title="[Piece 4]">
-        <button type="button" class="pp-play" aria-label="Load and play: [Piece 4]">
-          <span class="pp-tri" aria-hidden="true"></span>
-          <span class="pp-play-title">[Piece 4]</span>
-          <span class="pp-play-sub">Tap to load video</span>
-        </button>
-      </div>
-      <figcaption><strong>[Piece 4]</strong><br>[Composer]. One line about it.</figcaption>
-    </figure>
-
-    <figure>
-      <div class="pp-reel" data-ig="https://www.instagram.com/p/DSsraZFDGTI/" data-title="Photo at the piano">
-        <button type="button" class="pp-play" aria-label="Load photo">
-          <span class="pp-tri" aria-hidden="true"></span>
-          <span class="pp-play-title">Photo</span>
-          <span class="pp-play-sub">Tap to load photo</span>
-        </button>
-      </div>
-      <figcaption><strong>[Photo title]</strong><br>One line about this photo.</figcaption>
-    </figure>
+    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DJym54xtU9s/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:0; max-width:540px; min-width:326px; padding:0; width:100%;"><a href="https://www.instagram.com/reel/DJym54xtU9s/" target="_blank" rel="noopener">View on Instagram</a></blockquote>
 
   </div>
 
   <p class="pp-foot">
     More on Instagram: <a href="https://www.instagram.com/haisumplays/" target="_blank" rel="noopener">@haisumplays</a>.
-    Instagram content loads only when you press play, so this page stays fast and does not track you on arrival.
   </p>
 
 </div>
 
 <style>
-  .piano-page { max-width: 880px; margin: 0 auto; }
+  .piano-page { max-width: 880px; margin: 0 auto; container-type: inline-size; }
 
   .pp-lede {
     font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
@@ -151,21 +117,39 @@ nav_order: 5
   .pp-white:focus-visible, .pp-black:focus-visible { outline: 3px solid var(--global-theme-color); outline-offset: 2px; z-index: 3; }
   .pp-hint { font-size: 0.85rem; color: var(--global-text-color-light); margin: 0.6rem 0 3rem; }
 
-  /* ---- featured ---- */
+  /* ---- featured: text and photo on the left, video on the right ---- */
   .pp-feature {
     display: grid;
-    grid-template-columns: 1fr 340px;
-    gap: 2.5rem;
+    grid-template-columns: minmax(326px, 1fr) 340px;
+    grid-template-areas:
+      "text  video"
+      "photo video";
+    column-gap: 2.5rem;
+    row-gap: 1.5rem;
     align-items: start;
     margin-bottom: 3.5rem;
   }
-  .pp-feature h2 {
+  .pp-text  { grid-area: text; }
+  .pp-photo { grid-area: photo; max-width: 400px; width: 100%; }
+  .pp-video { grid-area: video; }
+
+  .pp-text h2 {
     font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
     font-size: 2rem;
     margin: 0 0 0.3rem;
     border: 0;
   }
   .pp-meta { color: var(--global-text-color-light); margin-bottom: 1rem; }
+
+  .pp-video video {
+    display: block;
+    width: 100%;
+    max-width: 340px;
+    aspect-ratio: 9 / 16;
+    object-fit: contain;
+    background: #000;
+    border-radius: 10px;
+  }
 
   .pp-h2 {
     font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
@@ -174,182 +158,105 @@ nav_order: 5
     margin-bottom: 1.2rem;
   }
 
-  /* ---- video frame (shared) ---- */
-  .pp-reel {
-    position: relative;
-    width: 100%;
-    max-width: 340px;
-    height: 600px;
-    background: #1d1c21;
-    border-radius: 10px;
-    overflow: hidden;
-  }
-  .pp-reel iframe { width: 100%; height: 100%; border: 0; background: #fff; }
-  .pp-native video { width: 100%; height: 100%; object-fit: contain; background: #000; display: block; }
-  .pp-play {
-    all: unset;
-    box-sizing: border-box;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 0.6rem;
-    cursor: pointer;
-    color: #f6f2e8;
-    text-align: center;
-    padding: 1rem;
-    /* faint key stripes, so empty frames still look like piano */
-    background: repeating-linear-gradient(90deg, #1d1c21 0, #1d1c21 38px, #26252b 38px, #26252b 40px);
-  }
-  .pp-play:hover .pp-tri { transform: scale(1.08); }
-  .pp-play:focus-visible { outline: 3px solid var(--global-theme-color); outline-offset: -6px; }
-  .pp-tri {
-    width: 0; height: 0;
-    border-left: 34px solid var(--global-theme-color);
-    border-top: 21px solid transparent;
-    border-bottom: 21px solid transparent;
-    margin-left: 10px;
-    transition: transform 120ms ease;
-  }
-  .pp-play-title {
-    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
-    font-size: 1.3rem;
-  }
-  .pp-play-sub { font-size: 0.85rem; opacity: 0.7; }
-  .pp-open { display: block; margin-top: 0.5rem; font-size: 0.85rem; }
-
-  /* ---- grid ---- */
+  /* ---- reels grid ---- */
   .pp-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(326px, 1fr));
     gap: 2rem 1.5rem;
+    align-items: start;
   }
-  .pp-grid figure { margin: 0; }
-  .pp-grid figcaption { margin-top: 0.7rem; font-size: 0.95rem; line-height: 1.45; max-width: 340px; }
-  .pp-foot { margin-top: 3rem; font-size: 0.9rem; color: var(--global-text-color-light); max-width: 38em; }
+  .pp-foot { margin-top: 3rem; font-size: 0.9rem; color: var(--global-text-color-light); }
 
-  @media (max-width: 760px) {
-    .pp-feature { grid-template-columns: 1fr; gap: 1.5rem; }
+  /* ---- narrow layouts: stack text, video, photo ---- */
+  @container (max-width: 760px) {
+    .pp-feature {
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "text"
+        "video"
+        "photo";
+    }
     .pp-keys { height: 96px; }
     .pp-lede { font-size: 1.3rem; }
   }
   @media (prefers-reduced-motion: reduce) {
-    .pp-white, .pp-black, .pp-tri { transition: none; }
+    .pp-white, .pp-black { transition: none; }
   }
 </style>
 
 <script>
 (function () {
-  /* ---------- 1. Keyboard: C4 to B5, two octaves ---------- */
+  /* ---------- Keyboard: C4 to B5, two octaves ---------- */
   var root = document.getElementById('ppKeys');
-  if (root) {
-    var whiteSteps = [0, 2, 4, 5, 7, 9, 11];
-    var blackAfter = { 0: 1, 1: 3, 3: 6, 4: 8, 5: 10 };
-    var whiteCount = 14, startMidi = 60;
-    var ctx = null;
+  if (!root) return;
 
-    function freq(m) { return 440 * Math.pow(2, (m - 69) / 12); }
+  var whiteSteps = [0, 2, 4, 5, 7, 9, 11];
+  var blackAfter = { 0: 1, 1: 3, 3: 6, 4: 8, 5: 10 };
+  var whiteCount = 14, startMidi = 60;
+  var ctx = null;
 
-    function play(m) {
-      try {
-        ctx = ctx || new (window.AudioContext || window.webkitAudioContext)();
-        if (ctx.state === 'suspended') ctx.resume();
-        var t = ctx.currentTime;
-        var out = ctx.createGain();
-        out.gain.setValueAtTime(0.0001, t);
-        out.gain.exponentialRampToValueAtTime(0.35, t + 0.01);
-        out.gain.exponentialRampToValueAtTime(0.0001, t + 1.6);
-        out.connect(ctx.destination);
-        [[1, 1], [2, 0.35], [3, 0.12]].forEach(function (p) {
-          var o = ctx.createOscillator(), g = ctx.createGain();
-          o.type = 'sine';
-          o.frequency.value = freq(m) * p[0];
-          g.gain.value = p[1];
-          o.connect(g); g.connect(out);
-          o.start(t); o.stop(t + 1.7);
-        });
-      } catch (e) { /* audio blocked: keys still animate */ }
-    }
+  function freq(m) { return 440 * Math.pow(2, (m - 69) / 12); }
 
-    function press(el, m) {
-      el.classList.add('down');
-      setTimeout(function () { el.classList.remove('down'); }, 140);
-      play(m);
-    }
-
-    var names = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
-    function label(m) { return names[m % 12] + (Math.floor(m / 12) - 1); }
-
-    for (var i = 0; i < whiteCount; i++) {
-      (function (i) {
-        var m = startMidi + Math.floor(i / 7) * 12 + whiteSteps[i % 7];
-        var w = document.createElement('button');
-        w.type = 'button';
-        w.className = 'pp-white';
-        w.setAttribute('aria-label', label(m));
-        w.addEventListener('pointerdown', function () { press(w, m); });
-        w.addEventListener('keydown', function (e) {
-          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); press(w, m); }
-        });
-        root.appendChild(w);
-
-        if (blackAfter.hasOwnProperty(i % 7) && i < whiteCount - 1) {
-          var bm = startMidi + Math.floor(i / 7) * 12 + blackAfter[i % 7];
-          var b = document.createElement('button');
-          b.type = 'button';
-          b.className = 'pp-black';
-          b.style.left = ((i + 1) * 100 / whiteCount) + '%';
-          b.setAttribute('aria-label', label(bm));
-          b.addEventListener('pointerdown', function (e) { e.stopPropagation(); press(b, bm); });
-          b.addEventListener('keydown', function (e) {
-            if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); press(b, bm); }
-          });
-          root.appendChild(b);
-        }
-      })(i);
-    }
+  function play(m) {
+    try {
+      ctx = ctx || new (window.AudioContext || window.webkitAudioContext)();
+      if (ctx.state === 'suspended') ctx.resume();
+      var t = ctx.currentTime;
+      var out = ctx.createGain();
+      out.gain.setValueAtTime(0.0001, t);
+      out.gain.exponentialRampToValueAtTime(0.35, t + 0.01);
+      out.gain.exponentialRampToValueAtTime(0.0001, t + 1.6);
+      out.connect(ctx.destination);
+      [[1, 1], [2, 0.35], [3, 0.12]].forEach(function (p) {
+        var o = ctx.createOscillator(), g = ctx.createGain();
+        o.type = 'sine';
+        o.frequency.value = freq(m) * p[0];
+        g.gain.value = p[1];
+        o.connect(g); g.connect(out);
+        o.start(t); o.stop(t + 1.7);
+      });
+    } catch (e) { /* audio blocked: keys still animate */ }
   }
 
-  /* ---------- 2. Click to load Instagram posts and reels ---------- */
-  function parseIG(s) {
-    if (!s) return null;
-    s = s.trim();
-    var m = s.match(/instagram\.com\/(p|reels?|tv)\/([A-Za-z0-9_-]+)/i);
-    if (!m) m = s.match(/^(p|reels?|tv)\/([A-Za-z0-9_-]+)$/i);
-    if (m) {
-      var kind = m[1].toLowerCase();
-      if (kind === 'reels') kind = 'reel';
-      return { kind: kind, id: m[2] };
-    }
-    return null;
+  function press(el, m) {
+    el.classList.add('down');
+    setTimeout(function () { el.classList.remove('down'); }, 140);
+    play(m);
   }
 
-  document.querySelectorAll('.pp-reel[data-ig]').forEach(function (box) {
-    var btn = box.querySelector('.pp-play');
-    var ig = parseIG(box.getAttribute('data-ig'));
-    if (!btn || !ig) return;
+  var names = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
+  function label(m) { return names[m % 12] + (Math.floor(m / 12) - 1); }
 
-    // small fallback link under the frame, in case an embed is blocked
-    var a = document.createElement('a');
-    a.className = 'pp-open';
-    a.href = 'https://www.instagram.com/' + ig.kind + '/' + ig.id + '/';
-    a.target = '_blank';
-    a.rel = 'noopener';
-    a.textContent = 'Open on Instagram';
-    box.parentNode.insertBefore(a, box.nextSibling);
+  for (var i = 0; i < whiteCount; i++) {
+    (function (i) {
+      var m = startMidi + Math.floor(i / 7) * 12 + whiteSteps[i % 7];
+      var w = document.createElement('button');
+      w.type = 'button';
+      w.className = 'pp-white';
+      w.setAttribute('aria-label', label(m));
+      w.addEventListener('pointerdown', function () { press(w, m); });
+      w.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); press(w, m); }
+      });
+      root.appendChild(w);
 
-    btn.addEventListener('click', function () {
-      var f = document.createElement('iframe');
-      f.src = 'https://www.instagram.com/' + ig.kind + '/' + ig.id + '/embed/';
-      f.title = box.getAttribute('data-title') || 'Piano recording';
-      f.setAttribute('allowtransparency', 'true');
-      f.setAttribute('allow', 'encrypted-media; fullscreen');
-      f.setAttribute('scrolling', 'no');
-      box.innerHTML = '';
-      box.appendChild(f);
-    });
-  });
+      if (blackAfter.hasOwnProperty(i % 7) && i < whiteCount - 1) {
+        var bm = startMidi + Math.floor(i / 7) * 12 + blackAfter[i % 7];
+        var b = document.createElement('button');
+        b.type = 'button';
+        b.className = 'pp-black';
+        b.style.left = ((i + 1) * 100 / whiteCount) + '%';
+        b.setAttribute('aria-label', label(bm));
+        b.addEventListener('pointerdown', function (e) { e.stopPropagation(); press(b, bm); });
+        b.addEventListener('keydown', function (e) {
+          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); press(b, bm); }
+        });
+        root.appendChild(b);
+      }
+    })(i);
+  }
 })();
 </script>
+
+<!-- Instagram's own script turns each blockquote above into a live embed with its real thumbnail. -->
+<script async src="https://www.instagram.com/embed.js"></script>
