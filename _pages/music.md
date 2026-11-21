@@ -17,7 +17,7 @@ nav_order: 5
   <div class="pp-keys" id="ppKeys" role="group" aria-label="Small piano keyboard. Press a key to hear a note."></div>
   <p class="pp-hint">Try the keys. They are real notes.</p>
 
-  <!-- ========== FEATURED: text + photo on the left, your own mp4 on the right ==========
+  <!-- ========== ROW 1: text | Instagram photo | your own mp4 ==========
        Upload your video to the repo as: assets/video/piano-main.mp4
        (GitHub: Add file > Upload files. Keep it under about 20 MB.)
   -->
@@ -28,12 +28,12 @@ nav_order: 5
       <p class="pp-meta">[Composer or "Original"]. Recorded [Month Year].</p>
       <p>
         [Two or three plain sentences. Why you chose this piece, what makes it hard,
-        or what it means to you. Specific is better than polished.]
+        or what it means to you.]
       </p>
     </div>
 
     <div class="pp-photo">
-      <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DSsraZFDGTI/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:0; max-width:540px; min-width:326px; padding:0; width:100%;"><a href="https://www.instagram.com/p/DSsraZFDGTI/" target="_blank" rel="noopener">View on Instagram</a></blockquote>
+      <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/DSsraZFDGTI/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:0; max-width:540px; min-width:0; padding:0; width:100%;"><a href="https://www.instagram.com/p/DSsraZFDGTI/" target="_blank" rel="noopener">View on Instagram</a></blockquote>
     </div>
 
     <div class="pp-video">
@@ -45,16 +45,22 @@ nav_order: 5
 
   </section>
 
-  <!-- ========== MORE RECORDINGS: Instagram reels, no captions ==========
-       To add one, copy a <blockquote> block and change the link in both places. -->
+  <!-- ========== ROW 2: three Instagram reels ==========
+       To change one, replace the link in BOTH places inside its block. -->
   <h2 class="pp-h2">More recordings</h2>
   <div class="pp-grid">
 
-    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DW60T3HjBZa/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:0; max-width:540px; min-width:326px; padding:0; width:100%;"><a href="https://www.instagram.com/reel/DW60T3HjBZa/" target="_blank" rel="noopener">View on Instagram</a></blockquote>
+    <div class="pp-reelbox">
+      <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/DW60T3HjBZa/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:0; max-width:540px; min-width:0; padding:0; width:100%;"><a href="https://www.instagram.com/reel/DW60T3HjBZa/" target="_blank" rel="noopener">View on Instagram</a></blockquote>
+    </div>
 
-    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DKAXO6KsPJC/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:0; max-width:540px; min-width:326px; padding:0; width:100%;"><a href="https://www.instagram.com/reel/DKAXO6KsPJC/" target="_blank" rel="noopener">View on Instagram</a></blockquote>
+    <div class="pp-reelbox">
+      <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/DKAXO6KsPJC/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:0; max-width:540px; min-width:0; padding:0; width:100%;"><a href="https://www.instagram.com/reel/DKAXO6KsPJC/" target="_blank" rel="noopener">View on Instagram</a></blockquote>
+    </div>
 
-    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DJym54xtU9s/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:0; max-width:540px; min-width:326px; padding:0; width:100%;"><a href="https://www.instagram.com/reel/DJym54xtU9s/" target="_blank" rel="noopener">View on Instagram</a></blockquote>
+    <div class="pp-reelbox">
+      <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/DJym54xtU9s/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:0; max-width:540px; min-width:0; padding:0; width:100%;"><a href="https://www.instagram.com/reel/DJym54xtU9s/" target="_blank" rel="noopener">View on Instagram</a></blockquote>
+    </div>
 
   </div>
 
@@ -65,7 +71,12 @@ nav_order: 5
 </div>
 
 <style>
-  .piano-page { max-width: 880px; margin: 0 auto; container-type: inline-size; }
+  .piano-page {
+    --pp-gap: 1.25rem;
+    max-width: 880px;
+    margin: 0 auto;
+    container-type: inline-size;
+  }
 
   .pp-lede {
     font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
@@ -117,38 +128,42 @@ nav_order: 5
   .pp-white:focus-visible, .pp-black:focus-visible { outline: 3px solid var(--global-theme-color); outline-offset: 2px; z-index: 3; }
   .pp-hint { font-size: 0.85rem; color: var(--global-text-color-light); margin: 0.6rem 0 3rem; }
 
-  /* ---- featured: text and photo on the left, video on the right ---- */
+  /* ---- row 1: three equal columns, same as the reels row below ---- */
   .pp-feature {
     display: grid;
-    grid-template-columns: minmax(326px, 1fr) 340px;
-    grid-template-areas:
-      "text  video"
-      "photo video";
-    column-gap: 2.5rem;
-    row-gap: 1.5rem;
-    align-items: start;
-    margin-bottom: 3.5rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-areas: "text photo video";
+    gap: var(--pp-gap);
+    align-items: stretch;
+    margin-bottom: 3rem;
   }
-  .pp-text  { grid-area: text; }
-  .pp-photo { grid-area: photo; max-width: 400px; width: 100%; }
+  .pp-text  { grid-area: text;  align-self: start; }
+  .pp-photo { grid-area: photo; }
   .pp-video { grid-area: video; }
 
   .pp-text h2 {
     font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
-    font-size: 2rem;
+    font-size: 1.6rem;
     margin: 0 0 0.3rem;
     border: 0;
   }
-  .pp-meta { color: var(--global-text-color-light); margin-bottom: 1rem; }
+  .pp-meta { color: var(--global-text-color-light); margin-bottom: 1rem; font-size: 0.95rem; }
 
+  /* mp4 frame: at least 9:16, and grows to match the photo next to it */
+  .pp-video {
+    position: relative;
+    background: #000;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .pp-video::before { content: ""; display: block; padding-top: 177.78%; }
   .pp-video video {
-    display: block;
+    position: absolute;
+    inset: 0;
     width: 100%;
-    max-width: 340px;
-    aspect-ratio: 9 / 16;
+    height: 100%;
     object-fit: contain;
     background: #000;
-    border-radius: 10px;
   }
 
   .pp-h2 {
@@ -158,24 +173,35 @@ nav_order: 5
     margin-bottom: 1.2rem;
   }
 
-  /* ---- reels grid ---- */
+  /* ---- row 2: three reels in one row ---- */
   .pp-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(326px, 1fr));
-    gap: 2rem 1.5rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: var(--pp-gap);
     align-items: start;
   }
   .pp-foot { margin-top: 3rem; font-size: 0.9rem; color: var(--global-text-color-light); }
 
-  /* ---- narrow layouts: stack text, video, photo ---- */
-  @container (max-width: 760px) {
+  /* Let Instagram's embed shrink to the column width */
+  .piano-page iframe.instagram-media,
+  .piano-page blockquote.instagram-media {
+    min-width: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 !important;
+  }
+
+  /* ---- narrow layouts: everything stacks in one column ---- */
+  @container (max-width: 700px) {
     .pp-feature {
-      grid-template-columns: 1fr;
+      grid-template-columns: minmax(0, 1fr);
       grid-template-areas:
         "text"
         "video"
         "photo";
+      max-width: 400px;
     }
+    .pp-grid { grid-template-columns: minmax(0, 1fr); max-width: 400px; }
     .pp-keys { height: 96px; }
     .pp-lede { font-size: 1.3rem; }
   }
@@ -258,5 +284,5 @@ nav_order: 5
 })();
 </script>
 
-<!-- Instagram's own script turns each blockquote above into a live embed with its real thumbnail. -->
+<!-- Instagram's own script turns each blockquote above into a live embed. -->
 <script async src="https://www.instagram.com/embed.js"></script>
