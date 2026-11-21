@@ -9,7 +9,21 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "post-a-post-with-plotly-js",
+  },{id: "nav-music",
+          title: "Music",
+          description: "Piano, and why I keep it next to research.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/music/";
+          },
+        },{id: "nav-music",
+          title: "Music",
+          description: "Piano, and why I keep it next to research.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/music/";
+          },
+        },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
