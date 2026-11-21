@@ -15,7 +15,7 @@ nav: false
 ---
 
 <!-- BIO SECTION -->
-I am a Computer Science undergraduate at **Information Technology University (ITU)** interested in the intersection of **Artificial Intelligence, Human-Computer Interaction, and Software Engineering**. My research explores how intelligent systems interpret human behaviour, where they fall short, and how we can make them more reliable, equitable, and accessible.
+I am a Computer Science undergraduate at **Information Technology University (ITU)** interested in the intersection of **Artificial Intelligence, Human-Computer Interaction, and accessibility**. My research explores how intelligent systems interpret human behaviour, where they fall short, and how we can make them more reliable, fair, and equitable.
 
 Previously, I worked with researchers at **Tufts University** on evaluating bias against autistic communication in large language models, and participated in the **UIUC Research Program**, investigating automated software testing and repair. My current work also explores learning safe and human-like driving behaviour through data-driven control.
 <div style="margin-top: 20px; margin-bottom: 30px;">
