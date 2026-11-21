@@ -16,10 +16,9 @@ nav: false
 ---
 
 <!-- BIO SECTION -->
-I am a Computer Science undergraduate at **Information Technology University (ITU)**. My research interests include **Large Language Models** and **Software Engineering**, with a specific focus on mitigating **LLM Bias** and **Automated Test Repair**.
+I am a Computer Science undergraduate at **Information Technology University (ITU)** interested in the intersection of **Artificial Intelligence, Human-Computer Interaction, and Software Engineering**. My research explores how intelligent systems interpret human behaviour, where they fall short, and how we can make them more reliable, equitable, and accessible.
 
-Previously, I worked as a Research Assistant at **Tufts University** and the **UIUC Research Program**, where I investigated fairness in large language models and software reliability. I am passionate about building reliable, secure, and human-centered intelligent systems.
-
+Previously, I worked with researchers at **Tufts University** on evaluating bias against autistic communication in large language models, and participated in the **UIUC Research Program**, investigating automated software testing and repair. My current work also explores learning safe and human-like driving behaviour through data-driven control.
 <div style="margin-top: 20px; margin-bottom: 30px;">
   <a href="/assets/pdf/Haisum_cv.pdf" target="_blank" style="text-decoration: none;">
     <button type="button" class="btn btn-outline-primary btn-sm">Download CV</button>
