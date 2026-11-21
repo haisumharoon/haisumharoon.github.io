@@ -17,6 +17,12 @@ nav_order: 5
   <div class="pp-keys" id="ppKeys" role="group" aria-label="Small piano keyboard. Press a key to hear a note."></div>
   <p class="pp-hint">Try the keys. They are real notes.</p>
 
+  <!--
+    HOW TO ADD A VIDEO: paste the full Instagram link into data-ig.
+    Post links (/p/...) and reel links (/reel/...) both work.
+    Delete any <figure> block you do not need.
+  -->
+
   <!-- ========== FEATURED PIECE ========== -->
   <section class="pp-feature">
     <div class="pp-feature-text">
@@ -27,7 +33,7 @@ nav_order: 5
         or what it means to you. Specific is better than polished.]
       </p>
     </div>
-    <div class="pp-reel" data-reel="REEL_ID_1" data-title="[Piece title]">
+    <div class="pp-reel" data-ig="https://www.instagram.com/p/C3fjeJINm6yqwB1eWevAm3kvDCEUvE_QV2MPKg0/" data-title="[Piece title]">
       <button type="button" class="pp-play" aria-label="Load and play: [Piece title]">
         <span class="pp-tri" aria-hidden="true"></span>
         <span class="pp-play-title">[Piece title]</span>
@@ -41,7 +47,7 @@ nav_order: 5
   <div class="pp-grid">
 
     <figure>
-      <div class="pp-reel" data-reel="REEL_ID_2" data-title="[Piece 2]">
+      <div class="pp-reel" data-ig="PASTE_INSTAGRAM_LINK_2" data-title="[Piece 2]">
         <button type="button" class="pp-play" aria-label="Load and play: [Piece 2]">
           <span class="pp-tri" aria-hidden="true"></span>
           <span class="pp-play-title">[Piece 2]</span>
@@ -52,7 +58,7 @@ nav_order: 5
     </figure>
 
     <figure>
-      <div class="pp-reel" data-reel="REEL_ID_3" data-title="[Piece 3]">
+      <div class="pp-reel" data-ig="PASTE_INSTAGRAM_LINK_3" data-title="[Piece 3]">
         <button type="button" class="pp-play" aria-label="Load and play: [Piece 3]">
           <span class="pp-tri" aria-hidden="true"></span>
           <span class="pp-play-title">[Piece 3]</span>
@@ -63,7 +69,7 @@ nav_order: 5
     </figure>
 
     <figure>
-      <div class="pp-reel" data-reel="REEL_ID_4" data-title="[Piece 4]">
+      <div class="pp-reel" data-ig="PASTE_INSTAGRAM_LINK_4" data-title="[Piece 4]">
         <button type="button" class="pp-play" aria-label="Load and play: [Piece 4]">
           <span class="pp-tri" aria-hidden="true"></span>
           <span class="pp-play-title">[Piece 4]</span>
@@ -201,6 +207,7 @@ nav_order: 5
     font-size: 1.3rem;
   }
   .pp-play-sub { font-size: 0.85rem; opacity: 0.7; }
+  .pp-open { display: block; margin-top: 0.5rem; font-size: 0.85rem; }
 
   /* ---- grid ---- */
   .pp-grid {
@@ -227,8 +234,8 @@ nav_order: 5
   /* ---------- 1. Keyboard: C4 to B5, two octaves ---------- */
   var root = document.getElementById('ppKeys');
   if (root) {
-    var whiteSteps = [0, 2, 4, 5, 7, 9, 11];     // C D E F G A B
-    var blackAfter = { 0: 1, 1: 3, 3: 6, 4: 8, 5: 10 }; // white index -> semitone
+    var whiteSteps = [0, 2, 4, 5, 7, 9, 11];
+    var blackAfter = { 0: 1, 1: 3, 3: 6, 4: 8, 5: 10 };
     var whiteCount = 14, startMidi = 60;
     var ctx = null;
 
@@ -244,7 +251,6 @@ nav_order: 5
         out.gain.exponentialRampToValueAtTime(0.35, t + 0.01);
         out.gain.exponentialRampToValueAtTime(0.0001, t + 1.6);
         out.connect(ctx.destination);
-        // two partials give a softer, piano-like tone than a bare sine
         [[1, 1], [2, 0.35], [3, 0.12]].forEach(function (p) {
           var o = ctx.createOscillator(), g = ctx.createGain();
           o.type = 'sine';
@@ -295,15 +301,42 @@ nav_order: 5
     }
   }
 
-  /* ---------- 2. Click to load Instagram reels ---------- */
+  /* ---------- 2. Click to load Instagram posts and reels ---------- */
+  // Accepts a full link (post, reel or tv), "p/ID", "reel/ID", or a bare reel ID.
+  function parseIG(s) {
+    if (!s) return null;
+    s = s.trim();
+    var m = s.match(/instagram\.com\/(p|reels?|tv)\/([A-Za-z0-9_-]+)/i);
+    if (!m) m = s.match(/^(p|reels?|tv)\/([A-Za-z0-9_-]+)$/i);
+    if (m) {
+      var kind = m[1].toLowerCase();
+      if (kind === 'reels') kind = 'reel';
+      return { kind: kind, id: m[2] };
+    }
+    if (/^[A-Za-z0-9_-]+$/.test(s) && s.indexOf('PASTE') !== 0) return { kind: 'reel', id: s };
+    return null;
+  }
+
   document.querySelectorAll('.pp-reel').forEach(function (box) {
     var btn = box.querySelector('.pp-play');
+    var ig = parseIG(box.getAttribute('data-ig'));
     if (!btn) return;
+
+    if (ig) {
+      // small fallback link under the frame, in case an embed is blocked
+      var a = document.createElement('a');
+      a.className = 'pp-open';
+      a.href = 'https://www.instagram.com/' + ig.kind + '/' + ig.id + '/';
+      a.target = '_blank';
+      a.rel = 'noopener';
+      a.textContent = 'Open on Instagram';
+      box.parentNode.insertBefore(a, box.nextSibling);
+    }
+
     btn.addEventListener('click', function () {
-      var id = box.getAttribute('data-reel');
-      if (!id || id.indexOf('REEL_ID') === 0) return; // placeholder not replaced yet
+      if (!ig) return; // placeholder link not replaced yet
       var f = document.createElement('iframe');
-      f.src = 'https://www.instagram.com/reel/' + id + '/embed/';
+      f.src = 'https://www.instagram.com/' + ig.kind + '/' + ig.id + '/embed/';
       f.title = box.getAttribute('data-title') || 'Piano recording';
       f.setAttribute('allowtransparency', 'true');
       f.setAttribute('allow', 'encrypted-media; fullscreen');
