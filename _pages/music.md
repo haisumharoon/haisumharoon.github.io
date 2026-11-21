@@ -10,7 +10,7 @@ nav_order: 5
 <div class="piano-page">
 
   <p class="pp-lede">
-    I play piano. It is the part of my day where nothing gets submitted, reviewed, or revised by anyone but me.
+    I play piano because it brings me joy. It has taught me patience, focus, and the quiet satisfaction of watching something come together a little at a time.
   </p>
 
   <!-- Playable keyboard. Built by the script at the bottom of this file. -->
