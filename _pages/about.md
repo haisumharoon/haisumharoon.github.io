@@ -2,7 +2,6 @@
 layout: about
 title: Home
 permalink: /
-subtitle: <b>CS Undergraduate</b> at ITU. <br> Researcher in <b>AI Fairness</b> and <b>Software Engineering</b>.
 
 profile:
   align: right
