@@ -17,30 +17,29 @@ nav_order: 5
   <div class="pp-keys" id="ppKeys" role="group" aria-label="Small piano keyboard. Press a key to hear a note."></div>
   <p class="pp-hint">Try the keys. They are real notes.</p>
 
-  <!-- ========== ROW 1: text | Instagram photo | your own mp4 ==========
-       Upload your video to the repo as: assets/video/piano-main.mp4
-       (GitHub: Add file > Upload files. Keep it under about 20 MB.)
-  -->
+  <!-- ========== ROW 1: left = text + video, right = Instagram photo ========== -->
   <section class="pp-feature">
 
-    <div class="pp-text">
-      <h2>Cornfield Chase</h2>
-      <p class="pp-meta">Hans Zimmer, from Interstellar.</p>
-      <p>
-        My favorite piece to play. The slow build from a simple pattern into something huge is what keeps me coming back.
-        Interstellar is also the film that made me want to understand how things work.
-      </p>
+    <div class="pp-left">
+      <div class="pp-text">
+        <h2>Cornfield Chase</h2>
+        <p class="pp-meta">Hans Zimmer, from Interstellar.</p>
+        <p>
+          My favorite piece to play. The slow build from a simple pattern into something huge is what keeps me coming back.
+          Interstellar is also the film that made me want to understand how things work.
+        </p>
+      </div>
+
+      <div class="pp-video">
+        <video controls playsinline preload="metadata">
+          <source src="/assets/video/Interstellar.mp4#t=0.1" type="video/mp4">
+          Your browser cannot play this video.
+        </video>
+      </div>
     </div>
 
     <div class="pp-photo">
       <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DSsraZFDGTI/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:0; max-width:540px; min-width:0; padding:0; width:100%;"><a href="https://www.instagram.com/p/DSsraZFDGTI/" target="_blank" rel="noopener">View on Instagram</a></blockquote>
-    </div>
-
-    <div class="pp-video">
-      <video controls playsinline preload="metadata">
-        <source src="/assets/video/Interstellar.mp4#t=0.1" type="video/mp4">
-        Your browser cannot play this video.
-      </video>
     </div>
 
   </section>
@@ -128,21 +127,16 @@ nav_order: 5
   .pp-white:focus-visible, .pp-black:focus-visible { outline: 3px solid var(--global-theme-color); outline-offset: 2px; z-index: 3; }
   .pp-hint { font-size: 0.85rem; color: var(--global-text-color-light); margin: 0.6rem 0 3rem; }
 
-  /* ---- row 1: three equal columns, same as the reels row below ---- */
+  /* ---- row 1: left = text + video, right = photo ---- */
   .pp-feature {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    grid-template-areas:
-      "text  video"
-      "photo video";
-    column-gap: var(--pp-gap);
-    row-gap: 1rem;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 320px);
+    column-gap: 2.5rem;
     align-items: start;
     margin-bottom: 3rem;
   }
-  .pp-text  { grid-area: text; }
-  .pp-photo { grid-area: photo; max-width: 300px; width: 100%; }
-  .pp-video { grid-area: video; align-self: stretch; min-height: 420px; }
+  .pp-left  { min-width: 0; }
+  .pp-photo { width: 100%; max-width: 320px; justify-self: end; }
 
   .pp-text h2 {
     font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
@@ -152,18 +146,18 @@ nav_order: 5
   }
   .pp-meta { color: var(--global-text-color-light); margin-bottom: 1rem; font-size: 0.95rem; }
 
-  /* mp4 frame: at least 9:16, and grows to match the photo next to it */
   .pp-video {
-    position: relative;
+    margin-top: 1.5rem;
+    max-width: 440px;
     background: #000;
-    border-radius: 3px;
+    border-radius: 6px;
     overflow: hidden;
   }
   .pp-video video {
-    position: absolute;
-    inset: 0;
+    display: block;
     width: 100%;
-    height: 100%;
+    height: auto;
+    max-height: 360px;
     object-fit: contain;
     background: #000;
   }
@@ -197,14 +191,12 @@ nav_order: 5
   @container (max-width: 700px) {
     .pp-feature {
       grid-template-columns: minmax(0, 1fr);
-      grid-template-areas:
-        "text"
-        "video"
-        "photo";
+      row-gap: 2rem;
       max-width: 400px;
     }
+    .pp-photo { justify-self: start; max-width: 100%; }
+    .pp-video video { max-height: 320px; }
     .pp-grid { grid-template-columns: minmax(0, 1fr); max-width: 400px; }
-    .pp-video { aspect-ratio: 9 / 16; min-height: 0; }
     .pp-keys { height: 96px; }
     .pp-lede { font-size: 1.3rem; }
   }
