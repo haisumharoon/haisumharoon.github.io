@@ -15,9 +15,9 @@ nav: false
 ---
 
 <!-- BIO SECTION -->
-I am a Computer Science undergraduate at **Information Technology University (ITU)** interested in the intersection of **Artificial Intelligence, Human-Computer Interaction, and accessibility**. My research explores how intelligent systems interpret human behaviour, where they fall short, and how we can make them more reliable, fair, and equitable.
+I'm Haisum, a final-year Computer Science undergraduate at Information Technology University (ITU), Lahore, Pakistan. My interests span Human-Computer Interaction, AI Safety, and accessibility.
 
-Previously, I worked with researchers at **Tufts University** on evaluating bias against autistic communication in large language models, and participated in the **UIUC Research Program**, investigating automated software testing and repair. My current work also explores learning safe and human-like driving behaviour through data-driven control.
+I'm currently looking for PhD opportunities in Computer Science (Fall 2027) and am keen to collaborate with researchers..
 <div style="margin-top: 20px; margin-bottom: 30px;">
   <a href="/assets/pdf/Haisum_cv.pdf" target="_blank" style="text-decoration: none;">
     <button type="button" class="btn btn-outline-primary btn-sm">Download CV</button>
@@ -27,14 +27,6 @@ Previously, I worked with researchers at **Tufts University** on evaluating bias
     <button type="button" class="btn btn-outline-secondary btn-sm">Email Me</button>
   </a>
 </div>
-
-***
-
-<!-- NEWS SECTION -->
-### 📣 News
-
-*   **2026:** 🧠 Completed research on Neurodiversity and LLM Bias at **Tufts University**.
-*   **2025:** 🚀 Completed Research Fellowship in Software Engineering at the **UIUC+ Research Program**.
 
 ***
 
