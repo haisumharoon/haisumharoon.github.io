@@ -1,4 +1,4 @@
----
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/c093c65b-27b9-4421-bc8f-9c7c154e8141" />---
 layout: about
 title: Home
 permalink: /
@@ -16,7 +16,7 @@ nav: false
 
 <!-- BIO SECTION -->
 
-I am a final-year Computer Science undergraduate at Information Technology University (ITU), Lahore, Pakistan. My interests span Human-Computer Interaction, accessibility, and AI security. I'm planning to pursue a **PhD in Fall 2027** and am currently exploring programs that align with my interests.
+I am a final-year Computer Science undergraduate at Information Technology University (ITU), Lahore, Pakistan. My interests span Human-Computer Interaction, accessibility, and security. I'm planning to pursue a **PhD in Fall 2027** and am currently exploring programs that align with my interests.
 
 <div style="margin-top: 20px; margin-bottom: 30px;">
   <a href="/assets/pdf/Haisum_cv.pdf" target="_blank" style="text-decoration: none;">
@@ -113,9 +113,8 @@ Developed a full-stack platform featuring authentication, inventory and order ma
 <!-- SKILLS SECTION -->
 
 ### 🛠 Skills
-
-* **Programming:** C, C++, Python, Java, C#, SQL
-* **Machine Learning & AI:** PyTorch, Scikit-learn, LLM Application Development, Prompt Engineering
-* **Development:** React.js, Node.js, Flask, ASP.NET, Android Development, Unity, MongoDB
-* **Research Methods:** Experimental and User Study Design, Statistical Testing, Regression Analysis, Surveys, Interviews, Reflexive Thematic Analysis
-* **Other:** Mathematical Modeling, Optimization, Technical Writing, Git
+* **Research:** Experimental and User Study Design, Quantitative (statistical testing, regression, surveys)
+& Qualitative (reflexive thematic analysis, interviews) Methods, LLM Benchmarking and Evaluation,
+Mathematical Modeling and Optimization, Technical Writing.
+* **Technical:** Full-Stack Web Development, Android Programming, LLM Application Development, Prompt
+Engineering, Unity, C, C++, C#, Python, PyTorch, Scikit-learn, Java, SQL, MongoDB, Git.
