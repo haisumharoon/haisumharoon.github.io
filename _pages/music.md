@@ -2,7 +2,7 @@
 layout: page
 title: Music
 permalink: /music/
-description: Piano, and why I keep it next to research.
+description:
 nav: true
 nav_order: 5
 ---
