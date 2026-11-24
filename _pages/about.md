@@ -15,9 +15,7 @@ nav: false
 ---
 
 <!-- BIO SECTION -->
-I am a final-year Computer Science undergraduate at Information Technology University (ITU), Lahore, Pakistan. My interests span Human-Computer Interaction, accessibility, and AI Security.
-
-I'm currently looking for **PhD opportunities in Computer Science (Fall 2027)** and am keen to collaborate with other researchers.
+I am a final-year Computer Science undergraduate at Information Technology University (ITU), Lahore, Pakistan. My interests span Human-Computer Interaction, accessibility, and AI security. I'm currently looking for **PhD opportunities for Fall 2027**.
 <div style="margin-top: 20px; margin-bottom: 30px;">
   <a href="/assets/pdf/Haisum_cv.pdf" target="_blank" style="text-decoration: none;">
     <button type="button" class="btn btn-outline-primary btn-sm">Download CV</button>
