@@ -35,7 +35,7 @@ I am a final-year Computer Science undergraduate at Information Technology Unive
 ### 🔬 Research Experience
 
 **LLM Bias Against Autistic Communication**
-*Tufts University | Under Submission, ASSETS 2026*
+*Tufts University | Under Submission, CHI'27*
 <br>
 
 * Investigated how large language models evaluate autistic communication styles in cross-neurotype social settings.
