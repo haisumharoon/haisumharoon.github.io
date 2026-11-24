@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-music",
           title: "Music",
-          description: "Piano, and why I keep it next to research.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/music/";
